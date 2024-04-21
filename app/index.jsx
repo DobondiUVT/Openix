@@ -22,7 +22,7 @@ export default function App() {
   //   });
   return (
     <SafeAreaView className="bg-primary h-full">
-      <ScrollView contentContainerStyle={{ height: "100%" }}>
+      <ScrollView >
         <View className="w-full justify-items-center items-center h-full px-4">
           
           <Image
@@ -39,7 +39,7 @@ export default function App() {
           />
         </View>
       </ScrollView>
-      <StatusBar backgroundColor="#161622" style="light" />
+      <StatusBar backgroundColor="#161622"  />
     </SafeAreaView>
   );
 }

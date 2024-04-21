@@ -10,7 +10,7 @@ const Home = () => {
         activeOpacity={0.7}
         className={`bg-secondary  pt-8 rounded-full justify-center items-center`}
       >
-        <Text style={`text-white text-lg justify-item-center items-center`}>Click Me</Text>
+        <Text>Click Me</Text>
       </TouchableOpacity>
     </View>
 
